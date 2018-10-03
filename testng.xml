@@ -3,6 +3,9 @@
 <suite name="Regression Tests">
 
     <test name="Android 1">
+        <parameter name="platformName" value="android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="8.1.0"/>
         <packages>
             <package name="regressionSuite"/>
         </packages>

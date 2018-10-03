@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import java.io.IOException;
 import java.net.URL;
@@ -23,14 +24,17 @@ public class TestBase {
 
         System.out.println("Mpike sthn Before Suite");
         appium.startServer();
-        setDeviceCapabilities("android", "emulator-5554", "7.1.1");
+        //setDeviceCapabilities("android", "emulator-5554", "8.1.0");
 
         try {
 
-            Runtime.getRuntime().exec("scripts/launchGrid.sh");
+            Runtime.getRuntime().exec("./executors/launchHub.sh");
+            Runtime.getRuntime().exec("./executors/launchNode1.sh");
+            Runtime.getRuntime().exec("./executors/launchNode2.sh");
+
             System.out
                     .println("======================================================================================");
-            System.out.println("                                    HUB Started ");
+            System.out.println("                           HUB and NODES Started ");
             System.out
                     .println("======================================================================================");
 
@@ -42,7 +46,7 @@ public class TestBase {
     }
 
     @BeforeTest(alwaysRun = true)
-    //@Parameters({ "platformName", "udid", "platformVersion" })
+    @Parameters({ "platformName", "udid", "platformVersion" })
     public void setDeviceCapabilities(String platformName, String udid, String platformVersion) throws Exception {
 
         System.out.println("Mpike sthn Before Test");
@@ -54,14 +58,14 @@ public class TestBase {
 
         } else if (platformName.toLowerCase().equals("android")) {
 
-            capabilities.setCapability(MobileCapabilityType.UDID, "asggsbdfs");
-            capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.0.1");
-            capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, platformName);
+            capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554");
+            capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
+            capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "test");
             capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "io.appium.android.apis");
             capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "io.appium.android.apis.ApiDemos");
 
-            driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+            //driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
         } else {
 
@@ -74,7 +78,7 @@ public class TestBase {
     public void appiumTermination() {
 
         System.out.println("Mpike sthn After Suite");
-        driver.quit();
+        //driver.quit();
         appium.stopServer();
 
     }

@@ -4,6 +4,8 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
+import java.io.File;
+
 public class AppiumServer {
 
     private AppiumDriverLocalService appiumServer;
@@ -14,11 +16,9 @@ public class AppiumServer {
         // Build the Appium service
         appiumBuilder = new AppiumServiceBuilder();
         appiumBuilder.withIPAddress("127.0.0.1");
-        appiumBuilder.usingAnyFreePort(); // .usingPort(4723);
-        // appiumBuilder.usingDriverExecutable(new
-        // File("/home/linuxbrew/.linuxbrew/bin/node"));
-        // appiumBuilder.withAppiumJS(new
-        // File("/home/linuxbrew/.linuxbrew/lib/node_modules/appium/build/lib/main.js"));
+        appiumBuilder.usingAnyFreePort(); //usingPort(4723);
+        appiumBuilder.usingDriverExecutable(new File("/usr/local/bin/node"));
+        appiumBuilder.withAppiumJS(new File("node_modules/appium/build/lib/main.js"));
         appiumBuilder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
         appiumBuilder.withArgument(GeneralServerFlag.LOG_LEVEL, "error");
 
