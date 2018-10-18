@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568bf85b-6eca-4d0e-a6a9-dc6580c21527" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/executors/launchHub.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/executors/launchNode1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/executors/launchNode2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/android1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/android2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium-server-standalone-3.14.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/hub.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launchGrid.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/executors/launchNode1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/executors/launchNode1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/executors/launchNode2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/executors/launchNode2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/android1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/android1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/android2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/android2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/hub.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/hub.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/AppiumServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/AppiumServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/regressionSuite/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/regressionSuite/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,53 +23,54 @@
     <session id="561015061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="5" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.11" value="7" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="235" />
-          <entry key="json" value="104" />
-          <entry key="sh" value="306" />
-          <entry key="txt" value="205" />
-          <entry key="xml" value="19" />
+          <entry key="java" value="968" />
+          <entry key="json" value="157" />
+          <entry key="sh" value="312" />
+          <entry key="txt" value="275" />
+          <entry key="xml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="306" />
-          <entry key="JAVA" value="235" />
-          <entry key="JSON" value="104" />
-          <entry key="PLAIN_TEXT" value="205" />
-          <entry key="XML" value="19" />
+          <entry key="Bash" value="312" />
+          <entry key="JAVA" value="968" />
+          <entry key="JSON" value="157" />
+          <entry key="PLAIN_TEXT" value="275" />
+          <entry key="XML" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="17" />
-          <entry key="json" value="13" />
-          <entry key="sh" value="4" />
-          <entry key="xml" value="8" />
+          <entry key="java" value="24" />
+          <entry key="json" value="26" />
+          <entry key="sh" value="15" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
+          <entry key="Bash" value="15" />
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="17" />
-          <entry key="JSON" value="13" />
-          <entry key="XML" value="8" />
+          <entry key="JAVA" value="24" />
+          <entry key="JSON" value="26" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -89,98 +83,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/hub.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/android1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/android2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/AppiumServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/regressionSuite/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/executors/launchNode1.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/executors/launchNode2.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/executors/launchHub.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,6 +93,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>5523</find>
+      <find>caps</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -208,18 +115,19 @@
         <option value="$PROJECT_DIR$/grid.json" />
         <option value="$PROJECT_DIR$/launchGrid.sh" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/regressionSuite/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/AppiumServer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/json/android1.json" />
-        <option value="$PROJECT_DIR$/json/android2.json" />
         <option value="$PROJECT_DIR$/json/grid.json" />
-        <option value="$PROJECT_DIR$/executors/launchNode1.sh" />
         <option value="$PROJECT_DIR$/executors/launchGrid.sh" />
-        <option value="$PROJECT_DIR$/executors/launchNode2.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/base/TestBase.java" />
         <option value="$PROJECT_DIR$/executors/launchHub.sh" />
+        <option value="$PROJECT_DIR$/executors/launchNode1.sh" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/json/hub.json" />
+        <option value="$PROJECT_DIR$/json/android1.json" />
+        <option value="$PROJECT_DIR$/executors/launchNode2.sh" />
+        <option value="$PROJECT_DIR$/json/android2.json" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/base/AppiumServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/TestBase.java" />
       </list>
     </option>
   </component>
@@ -244,11 +152,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="23" />
-    <option name="width" value="1382" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="453" />
+    <option name="y" value="-1006" />
+    <option name="width" value="1798" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -280,48 +188,6 @@
               <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="first_testing_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_testing_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_testing_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_testing_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_testing_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_testing_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_testing_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="regressionSuite" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -329,7 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538514918430" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538753392339" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -453,38 +319,45 @@
       <option name="project" value="LOCAL" />
       <updated>1536955047758</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created all needed files to start appium server and grid">
+      <created>1538595105559</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1538595105559</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.01 at 16h 46m 40s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 11m 16s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.01 at 16h 48m 24s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 13m 17s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.01 at 16h 57m 55s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 16m 41s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.01 at 16h 58m 11s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 20m 13s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.01 at 17h 01m 16s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 21m 47s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.01 at 17h 02m 02s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 29m 02s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.03 at 00h 16m 30s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.05 at 18h 30m 34s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.03 at 22h 15m 50s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.08 at 09h 43m 32s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.03 at 22h 19m 00s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.08 at 09h 47m 27s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.03 at 22h 19m 52s.xml">
+    <history-entry file="_Users_antonissavvoglou_IdeaProjects_first_testing_project_testng_xml - 2018.10.08 at 09h 49m 37s.xml">
       <configuration name="/Users/antonissavvoglou/IdeaProjects/first_testing_project/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -498,10 +371,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="23" width="1382" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="453" y="-1006" width="1798" height="977" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18059702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11446469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,14 +382,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74925375" weight="0.44585988" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35286623" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74925375" weight="0.3298731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35141242" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6208955" weight="0.30103806" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6208955" weight="0.29873127" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50149256" side_tool="true" weight="0.32866243" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49850747" visible="true" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49850747" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
@@ -528,6 +400,32 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.23283581" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -542,16 +440,17 @@
     <MESSAGE value="Modofied class test to extend TestBase" />
     <MESSAGE value="Added workspace.xml file" />
     <MESSAGE value="Added package.json and package-lock.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added package.json and package-lock.json" />
+    <MESSAGE value="Created all needed files to start appium server and grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created all needed files to start appium server and grid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/regressionSuite/test.java</url>
-          <line>14</line>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -585,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="449" column="32" selection-start-line="449" selection-start-column="32" selection-end-line="449" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="715" selection-start-line="715" selection-end-line="715" />
         </state>
       </provider>
     </entry>
@@ -630,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -651,66 +536,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar!/io/appium/java_client/remote/MobileCapabilityType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="178">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/android2.json">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/android1.json">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="385">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2-sources.jar!/org/testng/annotations/AfterSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/AppiumServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="375">
+          <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executors/launchHub.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/hub.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/executors/launchNode1.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/android1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/executors/launchNode2.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/hub.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/executors/launchHub.sh">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/json/android2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>

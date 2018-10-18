@@ -5,6 +5,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.remote.MobilePlatform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -17,14 +18,13 @@ import java.net.URL;
 public class TestBase {
 
     private static AppiumServer appium = new AppiumServer();
-    private static AppiumDriver<?> driver;
+    public AppiumDriver<?> driver = null;
 
     @BeforeSuite
-    public void appiumInitialization() throws Exception {
+    public void appiumInitialization() {
 
-        System.out.println("Mpike sthn Before Suite");
+        System.out.println("Before Suite annotation is running.\n");
         appium.startServer();
-        //setDeviceCapabilities("android", "emulator-5554", "8.1.0");
 
         try {
 
@@ -34,9 +34,10 @@ public class TestBase {
 
             System.out
                     .println("======================================================================================");
-            System.out.println("                           HUB and NODES Started ");
             System.out
-                    .println("======================================================================================");
+                    .println("                           HUB and NODES Started ");
+            System.out
+                    .println("====================================================================================== \n");
 
         } catch (IOException e) {
 
@@ -49,36 +50,48 @@ public class TestBase {
     @Parameters({ "platformName", "udid", "platformVersion" })
     public void setDeviceCapabilities(String platformName, String udid, String platformVersion) throws Exception {
 
-        System.out.println("Mpike sthn Before Test");
+        System.out.println("\nBefore Test annotation is running.\n");
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        if (platformName.toLowerCase().equals("ios")) {
+        capabilities.setCapability(MobileCapabilityType.UDID, udid);
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
 
-            System.out.println("Apple SUCKS!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        switch (platformName.toLowerCase()) {
+            case "ios":
+                System.out.println("Apple SUCKS!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                break;
 
-        } else if (platformName.toLowerCase().equals("android")) {
+            case "android":
+                capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, udid);
+                capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+                capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "gr.androiddev.taxibeat");
+                capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.taxibeat.passenger.presentation.components.activities.SplashActivity");
+                capabilities.setCapability("autoGrantPermissions", "true");
+                capabilities.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, "true");
 
-            capabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554");
-            capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.1.0");
-            capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
-            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "test");
-            capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "io.appium.android.apis");
-            capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "io.appium.android.apis.ApiDemos");
 
-            //driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+                driver = new AndroidDriver<MobileElement>(
+                    new URL("http://127.0.0.1:" + appium.getAppiumServerPort() + "/wd/hub"), capabilities);
+                break;
 
-        } else {
+         default:
+             throw new Exception("Platform not supported! Check if you set ios or android on the parameter.");
 
-            throw new Exception("Platform not supported! Check if you set ios or android on the parameter.");
         }
-
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void appiumTermination() {
 
-        System.out.println("Mpike sthn After Suite");
-        //driver.quit();
+        System.out.println("\nAfter Suite annotation is running.\n");
+
+        System.out.println("    Closing application.\n");
+        driver.closeApp();
+
+        System.out.println("    Quitting Appium driver.\n");
+        driver.quit();
+
+        System.out.println("    Stopping Appium server.\n");
         appium.stopServer();
 
     }
